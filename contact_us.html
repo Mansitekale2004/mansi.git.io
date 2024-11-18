@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SweetLoop Donuts - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin-top: 80px; 
+}
+
+
+nav .nav-links a {
+    margin-left: 20px;
+    color: #4F1B1B;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links a:hover {
+    color: #ff4081; 
+}
+
+
+nav .nav-icons a {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #4F1B1B;
+    text-decoration: none;
+}
+
+
+nav .nav-icons a:hover {
+    color: #ff4081;
+}
+
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+      
+        .contact-us {
+            text-align: center;
+            background-image: url('/Images/image.png'); 
+            color: #fff;
+            padding: 80px 20px;
+        }
+
+        .contact-us h1 {
+            font-family: 'Agbalumo', sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            
+        }
+
+        .contact-us {
+    text-align: center;
+    background-image: url('images/contact image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+        .contact-us p {
+            font-family: 'Agbalumo', sans-serif;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .contact-form {
+            max-width: 1000px;
+            margin-top: 50px ;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            padding: 40px;
+            background-color: #f7e4e4;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            gap: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+
+        .contact-image {
+            width: 600px;
+            border-radius: 10px;
+        }
+
+        .contact-info {
+            max-width: 3000px;
+            background-color: #fff5f5;
+            padding: 40px 140px;
+            text-align: center;
+            color: #4F1B1B;
+            font-size: 16px;
+            display: block;
+            margin-left: 2px;
+           
+        }
+
+        .contact-info h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        
+         .info-grid {
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-between;
+            gap: 300px;
+            max-width: 1200px;
+            text-align: left;
+           
+        }
+
+        .info-item {
+            width: 1200px;  
+            margin-left: 100px;
+            
+        }
+
+        .info-item img {
+            width: 60%;
+            border: 1px solid #ccc;
+           
+        }
+        .info-item p{
+            font-size: 18px;
+        }
+
+        
+        
+
+    </style>
+</head>
+<body>
+
+   
+    <nav>
+        <div class="logo">
+            <img src="Images/Logo.png" alt="SweetLoop Logo">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <img src="your-search-icon-url.png" alt="">
+        </div>
+        <div style="padding-left: 2px;margin-right: 5px;">
+            <a href="index.html"style="padding-left: 2px;margin-right: 5px;">Home</a></li>
+            <a href="about_us.html"style="padding-left: 2px;margin-right: 5px;">About Us</a></li>
+            <a href="our_doughnuts.html"style="padding-left: 2px;margin-right: 5px;">Our Donuts</a></li>
+            <a href="contact_us.html"style="padding-left: 2px;margin-right: 5px;">Contact</a></li>
+        </div>
+        <div style="padding-left: 2px;margin-right: 5px;">
+            <a href="cart.html"><img href="cart.html" src="Images/Cart.png" alt="Cart"></a>
+            <a href="Profile.html"><img src="Images/Profile.png" alt="Profile"></a>
+        </div>
+    </nav>
+
+   
+    <div class="contact-us">
+        <h1 style="color: white;">Connect with us</h1>
+        <p>We strive to elevate the donuts experience</p>
+    </div>
+    
+
+   
+    <div class="contact-form">
+       
+        <form>
+            <h2 style="margin-bottom: 25px;font-family: 'Agbalumo', sans-serif;color: #4F1B1B;;">Contact us</h2> 
+            <input type="text" name="first_name" placeholder="First Name*" required>
+            <input type="email" name="email" placeholder="Email*" required>
+            <input type="text" name="phone" placeholder="Phone*" required>
+            <textarea name="message" rows="4" placeholder="Write a message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <img src="Images/image 366.png" alt="Donuts" class="contact-image"> 
+    </div>
+
+    
+    <div class="contact-info">
+        <p style="font-size: 20px;">For any customization, bulk order, reselling enquiries, please submit a query above or contact us on the given number</p>
+        <div class="info-grid">
+            <div class="info-item">
+                <p><strong>WhatsApp & Call:</strong> (+91) 9712555122</p>
+                <p><strong>Email:</strong> info@sweetloop.com</p>
+                <p><strong>Working Hours:</strong> 9am to 6pm</p>
+                <p><strong>Our Address:</strong> Office 1931, Tamani arts town office, Mumbai.</p>
+            </div>
+            <div class="info-item">
+                <img src="https://www.shutterstock.com/image-vector/3d-isometric-map-destination-location-260nw-1719378331.jpg" alt="Location Map" style=" border: 1px solid #E92A54;
+            ">
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+
+    
+<!-- Footer Section -->
+<footer style="background-color: #FEE4E7; padding: 20px 0; color: #580003">
+    <div style="display: flex; justify-content: space-around; align-items: center; margin: 0 100px;">
+        <div style="flex: 1; text-align: center;width:150px;margin-bottom: 30px;">
+            <h3 style="margin-bottom: 10px;">Contact Us</h3>
+            <img src="Images/Mail Footer.png"> <p style="font-size: 14px; color: #580003;">info@sweetloop.com.</p><br>
+            <img src="Images/Phone Footer.png"> <p style="font-size: 14px; color: #580003;">(+91) 9712555122.</p>
+        </div>
+        
+        <div style="flex: 1; text-align: center; width:100px;margin-bottom: 30px;">
+            <h3 style="margin-bottom: 10px;">Follow Us</h3>
+            <div style="font-size: 20px;">
+                <a href="#" style="color: #580003; text-decoration: none; margin: 0 10px;"><img src="Images/Instagram.png">
+                <a href="#" style="color: #580003; text-decoration: none; margin: 0 10px;"><img src="Images/LinkedIn.png">
+                <a href="#" style="color: #580003; text-decoration: none; margin: 0 10px;"><img src="Images/Twitter.png">
+            </div>
+        </div>
+        <div style="flex: 1; text-align: center;margin-bottom: 30px;margin-right: 60px;"> <!-- Centered the text inside the div -->
+            <h3 style="margin-bottom: 10px;">Visit our office</h3>
+            <p style="font-size: 17px; color: #580003;"><img src="Images/Location Footer.png" style="height: 30px;width:30px">123 Donut Street, Sweet City<br>Email: contact@sweetloop.com<br>Phone: +123 456 7890</p>
+        </div>
+    </div>
+    <div style="text-align: center; margin: 20px 50px;padding:0 60px;border-bottom: 1px solid black;">
+        <a href="about_us.html" style="color: #580003; text-decoration: none; margin: 0 15px;margin-bottom: 40px;">About Us</a>
+        <a href="our_doughnuts.html" style="color: #580003; text-decoration: none; margin: 0 15px; margin-bottom: 40px;">Our Donuts</a>
+        <br><br>
+        
+    </div>
+
+   
+    
+    
+</footer>
+</body>
+</html>

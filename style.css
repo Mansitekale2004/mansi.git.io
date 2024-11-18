@@ -1,0 +1,543 @@
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffeae9;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            width: 150px;
+        }
+        nav a {
+            margin: 0 20px;
+            color: #000;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .main-banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 50px ;
+            background-color: #ffeae9;
+        }
+        .main-banner h1 {
+            color: #4F1B1B;
+            font-size: 3em;
+            font-weight: 700;
+        }
+        .main-banner p {
+            font-size: 1.1em;
+            color: #333;
+        }
+        .main-banner .btn {
+            padding: 15px 30px;
+            background-color: #ff5f8f;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .main-banner img {
+            width: 400px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 100px 0;
+        }
+        .feature-item{
+            border:1px solid black;
+            border-radius:20px;
+            margin:10px;
+            padding: 40px;
+            width: 200px;
+
+
+        }
+        .features .feature-item {
+            text-align: center;
+        }
+        .features .feature-item h3 {
+            color: #ff5f8f;
+            margin-bottom: 10px;
+        }
+        .features .feature-item p {
+            font-size: 1em;
+            color: #333;
+        }
+        .a{
+            
+            background-image: url(Images/history_background.png);
+            background-size: cover;
+        }
+        .history {
+            padding: 80px;
+            display: flex;
+            justify-content: space-between;
+            background-color: transparent; 
+        }
+        .history img {
+            width: 400px;
+        }
+        .history div {
+            max-width: 800px;
+        }
+        .history h2 {
+            font-size: 3.5em;
+            color:#4F1B1B;
+        }
+        .history p {
+            font-size: 1.5em;
+            color: #333;
+        }    
+        .history .btn {
+            padding: 15px 30px;
+            background-color: #ff5f8f;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .donuts-section {
+            padding: 50px;
+            text-align: center;
+            background-color: white;
+        }
+        .donuts-section h2 {
+            font-size: 2.5em;
+            color:#4F1B1B;
+        }
+        .donuts {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+        }
+        .donuts-section .btn {
+            padding: 15px 30px;
+            background-color: #ff5f8f;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top:30px;
+
+        }
+        .donut-item {
+            text-align: center;
+            border:1px solid black;
+            background-color: #fefefe;
+            border-radius: 10px;
+            padding:25px;
+        }
+        .donut-item img {
+            width: 300px;
+        }
+        .testimonials-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .testimonials {
+            padding: 50px;
+            background-color: #fefefe;
+            text-align: center;
+            
+        }
+        .testimonials h2 {
+            font-size: 2.5em;
+            color: #4F1B1B;
+        }
+      
+        
+        nav {
+            background-color: white;
+            padding: 10px 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo img {
+            height: 40px;
+        }
+        nav .search {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav .search input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            width: 200px;
+        }
+        nav .search img {
+            height: 20px;
+            margin-left: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        nav ul li {
+            margin-left: 30px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #5d4037;
+            font-weight: bold;
+        }
+        nav {
+            background-color: white;
+            padding: 10px 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo img {
+            height: 40px;
+        }
+        nav .search {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav .search input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            width: 200px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        nav ul li {
+            margin-left: 30px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #5d4037;
+            font-weight: bold;
+        }
+ /* Additional White Section before Footer */
+.white-section-before-footer {
+    background-color: white;
+    height: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #FEE4E7;
+    padding: 40px 0;
+}
+
+footer h3 {
+    color: #580003;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #580003;
+    margin-bottom: 5px;
+    display: inline;
+}
+
+footer a {
+    color: #580003;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Social Media Icons */
+footer .social-icons img {
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* Footer Links */
+footer div a {
+    color: #580003;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #580003;
+    font-size: 14px;
+}
+
+
+    
+    
+            /* Header with background */
+            .about-us-header {
+                background-image: url('Images/bACKGROUND.png');
+                background-size: cover;
+                color: white;
+                text-align: center;
+                padding: 100px 20px;
+                font-size: 28px;
+                font-weight: bold;
+                line-height: 1.5;
+            }
+    
+            /* White space section between header and About Us */
+            .white-section {
+                background-color: white;
+                height: 50px;
+            }
+    
+            /* About Us Section */
+            .about-us {
+                padding: 40px 10px;
+                background-color: #FEE4E7;
+                /* display: flex; */
+                /* justify-content: space-between; */
+                align-items: flex-start;
+                margin: 0 auto;
+            }
+            .about-us .about-image img {
+                width: 200px;
+                border-radius: 10px;
+               
+            }
+            
+            .about-us .about-text h3 {
+                color: #8d6e63;
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .about-us .about-text p {
+                color: #5d4037;
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+    
+            /* Additional White Section before Footer */
+            .white-section-before-footer {
+                background-color: white;
+                height: 50px;
+            }
+    
+           
+        
+    
+        
+            /* Header with background */
+            .about-us-header {
+                background-image: url('Images/bACKGROUND.png');
+                background-size: cover;
+                color: white;
+                text-align: center;
+                padding: 100px 20px;
+                font-size: 28px;
+                font-weight: bold;
+                line-height: 1.5;
+            }
+    
+            /* White space section between header and About Us */
+            .white-section {
+                background-color: white;
+                height: 50px;
+            }
+    
+            /* About Us Section */
+            .about-us {
+                padding: 40px 30px;
+                background-color: #FEE4E7;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin: 0 auto;
+            }
+            .about-us .about-image img {
+                width: 400px;
+                border-radius: 10px;
+            }
+            .about-us .about-text {
+               
+                padding-left: 40px;
+            }
+            .about-us .about-text h3 {
+                color: #5d4037;
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .about-us .about-text p {
+                color: #5d4037;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+    
+            /* Additional White Section before Footer */
+            .white-section-before-footer {
+                background-color: white;
+                height: 50px;
+            }
+    
+
+            .contact-us {
+                text-align: center;
+                padding: 50px 20px;
+                background-color: #ffe6eb;
+            }
+            .contact-us h1 {
+                color: #8d6e63;
+                font-size: 28px;
+            }
+            .contact-form {
+               
+                margin: 50px auto;
+                
+                padding: 30px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            .contact-form input, .contact-form textarea {
+                width: calc(100% - 20px);
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+
+            .contact-form .btn {
+            padding: 15px 30px;
+            background-color: #ff5f8f;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            }
+            
+            .contact-form button:hover {
+                background-color: #e04e7c;
+            }
+
+            /* Contact Info */
+            .contact-info {
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .contact-info .info-block {
+                flex: 1;
+                margin: 10px;
+            }
+            .contact-info h4 {
+                color: #8d6e63;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            .contact-info p {
+                color: #5d4037;
+                font-size: 14px;
+            }
+
+        
+     
+
+
+
+/* Subscription container */
+.subscription-container {
+    background-image: url('Images/joinus.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    border-radius: 25px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.subscription-container h1 {
+    color: #b13b3d;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Subtext */
+.subscription-container p {
+    color: #5d4037;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+.subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-form input[type="email"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    width: 300px;
+    font-size: 1em;
+    outline: none;
+}
+
+.subscription-form button {
+    padding: 10px 20px;
+    background-color: #ff5f8f;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscription-form button:hover {
+    background-color: #e04e7c;
+}
+
+.our-donuts{
+   
+    background-image: url(Images/Donutpage\ pink\ design.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}

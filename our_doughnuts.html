@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SweetLoop Donuts - About Us</title>
+        <link rel="stylesheet" href="style.css">
+       <style>
+       
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin-top: 80px; 
+}
+
+
+nav .nav-links a {
+    margin-left: 20px;
+    color: #4F1B1B;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links a:hover {
+    color: #ff4081; 
+}
+
+
+nav .nav-icons a {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #4F1B1B;
+    text-decoration: none;
+}
+
+
+nav .nav-icons a:hover {
+    color: #ff4081;
+}
+
+       </style>
+    </head>
+    <body>
+    
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="logo">
+                <img src="Images/Logo.png" alt="SweetLoop Logo">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <img src="your-search-icon-url.png" alt="">
+            </div>
+            <div style="padding-left: 2px;margin-right: 5px;">
+                <a href="index.html"style="padding-left: 2px;margin-right: 5px;">Home</a></li>
+                <a href="about_us.html"style="padding-left: 2px;margin-right: 5px;">About Us</a></li>
+                <a href="our_doughnuts.html"style="padding-left: 2px;margin-right: 5px;">Our Donuts</a></li>
+                <a href="contact_us.html"style="padding-left: 2px;margin-right: 5px;">Contact</a></li>
+            </div>
+            <div>
+                <a href="cart.html" style="margin-left: 20px; font-size: 20px; color: #4F1B1B; text-decoration: none;"><img href="cart.html" src="Images/Cart.png">
+                <a href="Profile.html" style="margin-left: 20px; font-size: 20px; color: #4F1B1B; text-decoration: none;"><img src="Images/Profile.png">
+            </div>
+    
+        </nav>
+  
+
+    <!-- Main Section -->
+     <div class="our-donuts" style="padding: 0;margin: 0;">
+    <main style="padding: 20px">
+        <section>
+            <h1 style="text-align: center; font-family: 'Agbalumo', sans-serif;; font-size: 40px; margin-bottom: 10px;">Our Donuts</h1>
+            
+
+            <!-- Classics -->
+            <h2 style="color: #D3475B; font-family: 'Agbalumo', sans-serif; font-size: 32px;">Classics</h2>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 50px;">
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Plain Glaze</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">A timeless treat featuring a simple, yet irresistible, plain glazed donut. The perfect balance of fluffy dough and a sweet, glossy glaze for a classic indulgence..</p>
+                    <img src="Images/Plain Glaze.png" alt="Plain Glaze" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs150</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button onclick="decreaseQuantity('ferrero10-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span id="ferrero10-qty" style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button onclick="increaseQuantity('ferrero10-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Plain Glaze', 150)">Add to Cart</button>
+         
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Plain Chocolate</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">A classic delight featuring a plain chocolate donut. Indulge in the rich, velvety goodness of chocolate, ensuring a simple yet satisfying experience with every bite.</p>
+                    <img src="Images/Plain Chocolate.png" alt="Plain Chocolate" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs150</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button onclick="decreaseQuantity('ferrero20-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span id="ferrero20-qty" style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button onclick="increaseQuantity('ferrero20-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Plain Chocolate', 150)">Add to Cart</button>
+                 
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Strawberry Sprinkle</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Introducing our special Strawberry Sprinkle donut! Packed with fresh strawberry flavor, creamy icing sugar, and rich white chocolate, topped with colorful sprinkles. It's a delightful treat that's as beautiful as it is delicious!.</p>
+                    <img src="Images/Strawberry Sprinkle.png" alt="Strawberry Sprinkle" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs150</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button onclick="decreaseQuantity('ferrero30-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span id="ferrero30-qty" style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button onclick="increaseQuantity('ferrero30-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Strawberry Sprinkle', 150)">Add to Cart</button>
+                   
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+
+            <!-- Delights -->
+            <h2 style="color: #D3475B;font-family: 'Agbalumo', sans-serif; font-size: 32px;">Delights</h2>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 50px;">
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Ferrero Rocher</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">A heavenly creation filled with the irresistible choco bliss and topped with crunchy wafers. Savor the luxurious blend that captures the essence of Ferrero Rocher in a delightful donut.</p>
+                    <img src="Images/Ferrero rocher.png" alt="Ferrero Rocher" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs240</p>
+
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button onclick="decreaseQuantity('ferrero30-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span id="ferrero30-qty" style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button onclick="increaseQuantity('ferrero30-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Ferrero Rocher', 240)">Add to Cart</button>
+                         
+                        </button>
+                    </div>   
+                </div>
+                
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                   <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Oreo Chocolate</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Indulge in the perfect blend of dark chocolate, Oreo biscuit, and chocolate fudge topping on our Oreo Chocolate donut..</p>
+                    <img src="Images/Oreo chocolate.png" alt="Oreo Chocolate" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs240</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button onclick="decreaseQuantity('ferrero40-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span id="ferrero40-qty" style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button onclick="increaseQuantity('ferrero40-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Oreo Chocolate', 240)">Add to Cart</button>
+                          
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Salted Caramel</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Luxuriously filled with a blend of butter, cream, and salt. Topped with a sprinkle of poppy seeds, creating a perfect balance of sweetness and savory notes in every bite..</p>
+                    <img src="Images/salted caramel.png" alt="Salted Caramel" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs240</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button onclick="decreaseQuantity('ferrero50-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span id="ferrero50-qty" style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button onclick="increaseQuantity('ferrero50-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Salted Caramel', 240)">Add to Cart</button>
+                       
+                        </button>
+                    </div>
+                </div>
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Coconut Truffle</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">With white chocolate coconut ganache, garnished with candied shredded coconut, and coconut truffle chocolate ball on top.</p>
+                    <img src="Images/Coconut Truffle.jpg" alt="Coconut Truffle" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;"> Rs240</p>
+
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button onclick="decreaseQuantity('ferrero60-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span id="ferrero60-qty" style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button onclick="increaseQuantity('ferrero60-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Coconut Truffle', 240)">Add to Cart</button>
+                
+                        </button>
+                    </div>   
+                </div>
+                
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                   <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Cookies and cream</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Dipped in white creamy milky glaze topped with oreo chunks and finished off with chocolate drizzle</p>
+                    <img src="Images/Cookies and cream.jpg" alt="Cookies and cream" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs240</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button onclick="decreaseQuantity('ferrero70-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span id="ferrero70-qty" style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button onclick="increaseQuantity('ferrero70-qty')" style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Cookies and cream', 240)">Add to Cart</button>
+                   
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Nutella Bon</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Indulge in a warm, cinnamon glazed donut with a gooey Nutella swirl.</p>
+                    <img src="Images/Nutella Bon.jpg" alt="Nutella Bon" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs240</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Nutella Bon', 240)">Add to Cart</button>
+                    
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premium -->
+            <h2 style="color: #D3475B;font-family: 'Agbalumo', sans-serif; font-size: 32px;">Premium</h2>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Lemon Curd</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Tangy lemon juice and cream create a delightful filling, topped with the smooth sweetness of white chocolate and a satisfying crunch of biscuit. Savor the refreshing burst of citrus in our lemon curd donut..</p>
+                    <img src="Images/lemon curd.png" alt="Lemon Curd" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Lemon Curd', 300)">Add to Cart</button>
+                        
+                        </button>
+                    </div>
+                </div>
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Choco Fudge</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Generously filled with creamy dark chocolate, topped with a blend of dark chocolate, milk, choco powder, and delicate chocolate shavings. A chocolate lover's delight in every bite.</p>
+                    <img src="Images/choco fudge.png" alt="Choco Fudge" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Choco Fudge', 300)">Add to Cart</button>
+                       
+                        </button>
+                    </div>
+                </div>
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Bavarian Cream</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">A heavenly donut filled with a combination of vanilla, salt, and cream. Topped with a rich blend of chocolate, cream, and butter for an indulgent experience.</p>
+                    <img src="Images/Bavarian cream.png" alt="Bavarian Cream" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Bavarian Cream', 300)">Add to Cart</button>
+                       
+                        </button>
+                    </div>
+                </div> <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Blueberry Cream Cheese</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Filled with a blend of white chocolate and cheese, and topped with a burst of blueberry goodness. The topping features a delightful mix of blueberry, gelatine, cornflour, and candy crumbs for a sweet and tangy symphony in every bite.</p>
+                    <img src="Images/Blueberry Cream Cheese.jpg" alt="Blueberry Cream Cheese" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Blueberry Cream Cheese', 300)">Add to Cart</button>
+                         
+                        </button>
+                    </div>
+                </div> <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Lotus</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">A divine treat for lotus lovers. Filled with a luscious combination of lotus spread, white chocolate, and cream. Crowned with a decadent topping of milk and white chocolate, finished with swirls of lotus spread and crushed lotus biscuit</p>
+                    <img src="Images/Lotus.jpg" alt="Lotus" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Lotus', 300)">Add to Cart</button>
+                          
+                        </button>
+                    </div>
+                </div> <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Peanut Caramel</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Salted caramel glaze with caramelized peanut bits, topped with chocolate drizzle.</p>
+                    <img src="Images/Peanut Caramel.jpg" alt="Peanut Caramel" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Peanut Caramel', 300)">Add to Cart</button>
+                           
+                        </button>
+                    </div>
+                </div> <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Chocolate Malt</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">A delightful malt-infused treat that's simply irresistible. Packed with a luxurious blend of dark chocolate, cream, cheese, and chocolate malt filling. Topped with a tempting mix of chocolate, cream, butter, chocolate malt, and crunchy biscuit crumbs.</p>
+                    <img src="Images/Chocolate Malt.jpg" alt="Chocolate Malt" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Chocolate Malt', 300)">Add to Cart</button>
+                          
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Hazelnutty</h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Generously filled with Nutella goodness and topped with a dusting of icing sugar. Indulge in the perfect harmony of hazelnut chocolate bliss in every delectable bite.</p>
+                    <img src="Images/Hazelnutty.jpg" alt="Hazelnutty" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Hazelnutty', 300)">Add to Cart</button>
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: #4F1B1B;font-family: 'Agbalumo', sans-serif;">Bagelish </h3>
+                    <p style="font-size: 14px; color: #6D6D6D;">Indulge in the savory richness of cream cheesein our Bagelish donut. Topped with aromatic dill, zaatar, and a sprinkle of white sesame for a delightful fusion of flavors</p>
+                    <img src="Images/Bagelish.jpg" alt="Bagelish" style="width: 150px; height: 150px; object-fit: cover;">
+                    <p style="font-weight: bold; color: #4F1B1B;">Rs300</p>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 10px 0;">
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">-</button>
+                        <span style="margin: 0 10px; font-size: 16px;">1</span>
+                        <button style="border: none; background-color: #f0f0f0; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 5px;">+</button>
+
+                        <button style="background-color: #ff4081; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 125px;"onclick="addToCart('Bagelish', 300)">Add to Cart</button>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            <script>
+                function increaseQuantity(id) {
+                    const quantityElement = document.getElementById(id);
+                    let quantity = parseInt(quantityElement.textContent);
+                    quantityElement.textContent = quantity + 1;
+                }
+            
+                function decreaseQuantity(id) {
+                    const quantityElement = document.getElementById(id);
+                    let quantity = parseInt(quantityElement.textContent);
+                    if (quantity > 1) {
+                        quantityElement.textContent = quantity - 1;
+                    }
+                }
+            </script>
+        </section>
+        <br><br><br><br><br><Br></Br><Br></Br><Br></Br></Br><Br></Br>
+        <script>
+            // Function to add items to the cart
+            function addToCart(donutName, price) {
+                // Get existing cart from localStorage or initialize it as an empty array
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                
+                // Check if the item is already in the cart
+                const existingDonut = cart.find(item => item.name === donutName);
+                
+                if (existingDonut) {
+                    // If the donut is already in the cart, increment the quantity
+                    existingDonut.quantity += 1;
+                } else {
+                    // If the donut is not in the cart, add it as a new item
+                    cart.push({
+                        name: donutName,
+                        price: price,
+                        quantity: 1
+                    });
+                }
+
+                // Save the updated cart to localStorage
+                localStorage.setItem('cart', JSON.stringify(cart));
+
+                // Optionally show a success message or update cart count
+                alert(donutName + ' added to cart!');
+            }
+        </script>
+    </main>
+
+    </div>
+
+ 
+<!-- Footer Section -->
+<footer style="background-color: #FEE4E7; padding: 20px 0; color: #580003;">
+    <div style="display: flex; justify-content: space-around; align-items: center; margin: 0 100px;">
+        <div style="flex: 1; text-align: center;width:200px;margin-bottom: 50px;">
+            <h3 style="margin-bottom: 10px;">Contact Us</h3>
+            <img src="Images/Mail Footer.png"> <p style="font-size: 14px; color: #580003;">info@sweetloop.com.</p>
+            <img src="Images/Phone Footer.png"> <p style="font-size: 14px; color: #580003;">(+91) 9712555122.</p>
+        </div>
+        
+        <div style="flex: 1; text-align: center; width:100px;margin-bottom: 50px;">
+            <h3 style="margin-bottom: 10px;">Follow Us</h3>
+            <div style="font-size: 20px;">
+                <a href="#" style="color: #580003; text-decoration: none; margin: 0 10px;"><img src="Images/Instagram.png">
+                <a href="#" style="color: #580003; text-decoration: none; margin: 0 10px;"><img src="Images/LinkedIn.png">
+                <a href="#" style="color: #580003; text-decoration: none; margin: 0 10px;"><img src="Images/Twitter.png">
+            </div>
+        </div>
+        <div style="flex: 1; text-align: center;margin-bottom: 50px;"> <!-- Centered the text inside the div -->
+            <h3 style="margin-bottom: 10px;">Visit our office</h3>
+            <img src="Images/Location Footer.png"> 
+            <p style="font-size: 17px; color: #580003;">123 Donut Street, Sweet City<br>Email: contact@sweetloop.com<br>Phone: +123 456 7890</p>
+        </div>
+    </div>
+    <div style="text-align: center; margin: 20px 50px;padding:0 60px;border-bottom: 1px solid black;">
+        <a href="about_us.html" style="color: #580003; text-decoration: none; margin: 0 15px;margin-bottom: 40px;">About Us</a>
+        <a href="our_doughnuts.html" style="color: #580003; text-decoration: none; margin: 0 15px; margin-bottom: 40px;">Our Donuts</a>
+        <br><br>
+        
+    </div>
+
+   
+    
+    
+</footer>
+
+</body>
+</html>
